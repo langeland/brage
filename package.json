@@ -1,0 +1,22 @@
+{
+  "name": "brage",
+  "version": "1.0.0",
+  "description": "Bragi: he is renowned for wisdom, and most of all for fluency of speech and skill with words. He knows most of skaldship, and after him skaldship is called bragr, and from his name that one is called bragr-man or -woman, who possesses eloquence surpassing others, of women or of men. His wife is Iðunn.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "sequelize": "^6.3.3",
+    "sqlite3": "^5.0.0"
+  }
+}
